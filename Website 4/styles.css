@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #0261bf;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px 0px 100px;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: 0.5s;
+
+}
+header .navigation li a:hover{
+    color: #0261bf;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+header .navigation li a.active{
+    color: #0261bf;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 2;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    padding: 0px 100px 100px 100px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.content .textBx{
+    position: relative;
+    max-width: 650px;
+}
+
+.content h2{
+    color: white;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: 1000;
+    line-height: 1.5em;
+}
+
+.content h2 span{
+    font-size: 1.75em;
+}
+
+.content .textBx p{
+    color: white;
+}
+
+.content .textBx a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content .imgBx{
+    padding-right: 10px;
+}
+.content .imgBx img{
+    max-width: 225px;
+}
+.sci {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    list-style: none;
+    
+}
+
+.sci li img{
+    display: inline-block;
+    transform: scale(0.6);
+    filter: invert();
+}
+.thumbs{
+    position: absolute;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.thumbs li img:hover{
+    transform: translateY(-20%);
+}
+.thumbs li img{
+    width: 40px;
+    transition: .5s;
+}

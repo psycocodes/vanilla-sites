@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Gallery.html</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <title>Wildlife Photography Gallery</title>
+    <style>
+            *{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhahuZv1ugFQ2HJVXjC8gSA_AL0eYDN4VJg&usqp=CAU');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .gallery {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        img{
+            width: 500px;
+            height: px;
+            object-fit: cover;
+        }
+        header{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 50px;
+      list-style: none;
+    }
+    ul a{
+      text-decoration: none;
+      font-size: 1.7em;
+      color: #333;
+    }
+    h1{
+      font-weight: 500;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="gallery">
+        <div class="row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6BGHc0M7T9bcg6RQb4TtMlq_HzTcn0Zgcw&usqp=CAU" alt="Wildlife Image 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOi_sVDJi1UE5XV8peiQhM1f8sycZHNhcU-g&usqp=CAU" alt="Wildlife Image 2">
+        </div>
+        <div class="row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPZkjDSBms76LLKe6qgaWKq7OXyEohm74bQ&usqp=CAU" alt="Wildlife Image 3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2AxNoM-ekXBZ5WQpdtlxS0yAU69Q6Gbdow&usqp=CAU" alt="Wildlife Image 4">
+        </div>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

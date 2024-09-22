@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Homepage.html</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Photography</title>
+  <style>
+    *{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKTugMXTnEqddwn_sr7BbEZasZWHRCb0-6XQ&usqp=CAU");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    header{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 50px;
+      list-style: none;
+    }
+    ul a{
+      text-decoration: none;
+      font-size: 1.7em;
+      color: #333;
+    }
+    h1{
+      font-weight: 500;
+    }
+    img{
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .photo-grid{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 50px;
+    }
+    .hero{
+      margin-left: 100px;
+    }
+    .featured-photos h2{
+      margin-left: 100px;
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Wildlife Photography</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Explore the Beauty of Wildlife</h2>
+      <p>Experience breathtaking moments captured in stunning wildlife photographs.</p>
+      <a href="gallery.html" class="btn">View Gallery</a>
+    </section>
+
+    <section class="featured-photos">
+      <h2>Featured Photos</h2>
+      <div class="photo-grid">
+        <div class="photo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9EnUScNUSh2aCx7enXwYA7YRILtNrFAv9g&usqp=CAU" alt="Wildlife Photo 1">
+        </div>
+        <div class="photo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xvSzloxP00JhyFn4JuxTQHwbK2eEB5O0w&usqp=CAU" alt="Wildlife Photo 2">
+        </div>
+        <div class="photo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zBrbuU9R8wxV0O2wMeG6CFY8seWcBSatAw&usqp=CAU" alt="Wildlife Photo 3">
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+	background-color: grey;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+	color: white;
+
+}
+h1{
+	color: white;
+}
+h3{
+	color: white;
+}
+.header{
+	margin-left: 0.5em;
+}
+.surface {
+	background-color: black;
+	margin: 10px;
+	border-radius: 20px;
+	padding: 5px 10px 5px 10px;
+}
+.stats{
+	display: flex;
+	gap: 10px;
+
+}
+
+.stat-item{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.4em;
+	margin-left: 1em;
+	
+}
+
+.stat-item p{
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}
+.stat-item i{
+	color: red;
+	background-color: rgba(255,0,0,0.2); 
+	padding: 8px;
+	border-radius: 5px;
+
+}
+
+.subsurface{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em;
+	background-color: rgba(145, 34, 0, 0.596);
+	padding: 0.6em;
+	border-radius: 10px;
+	box-shadow: 1px 1px 6px rgba(255, 210, 210, 0.5);
+
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+}
+
+.content i{
+	color: red;
+	background-color: rgba(255,0,0,0.2); 
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.resume-button{
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	background-color: rgba(201, 74, 74, 0.4);
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+	border-color: transparent;
+	height: 5vh;
+
+}
+
+.resume-button:hover{
+	background-color:  rgb(74, 201, 101);
+}
